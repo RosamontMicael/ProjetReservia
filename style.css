@@ -223,3 +223,76 @@ nav ul {
 .fa-search {
   display: none;
 }
+
+/***********Zone de Filtres**************/
+
+.zone_filtres {
+  display: flex;
+  align-items: center;
+
+  width: 930px; /*69%;*/
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.designation {
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 50px;
+  margin-right: 20px;
+  flex: 1;
+}
+.filtres {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 13;
+  list-style-type: none;
+  margin: 0; /* a verifier*/
+  margin-left: 0;
+  padding: 0;
+}
+
+.filtres li {
+  border: #f2f2f2 3px solid;
+  border-radius: 48px;
+  height: 48px;
+  border-left: none;
+  padding-right: 10px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.filtres li:hover {
+  box-shadow: 6px 6px 10px #deebff;
+  border: #deebff 2px solid;
+  transform: scale(1.1, 1.1);
+}
+
+.filtres .fas {
+  color: #0065fc;
+  background-color: #deebff;
+}
+
+.cadre_eco,
+.cadre_fam,
+.cadre_rom,
+.cadre_ani {
+  width: 50px;
+  height: 50px;
+  background-color: #deebff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.zone_filtres .fas {
+  font-size: 1em;
+}

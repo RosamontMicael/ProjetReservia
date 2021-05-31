@@ -242,4 +242,19 @@
   .card_vignette h3 {
     margin-bottom: 1%;
   }
+
+  /*============================================*/
+  /*==============SECTION  FOOTER==============*/
+  /*============================================*/
+
+  footer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    height: auto;
+  }
+
+  .infos_sup {
+    margin: 0;
+  }
 }

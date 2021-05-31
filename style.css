@@ -1,0 +1,63 @@
+/*==========================================*/
+/*============PARAMETRES GENERAUX===========*/
+/*==========================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+#blocpage {
+  width: 100%;
+  max-width: 1440px;
+  min-width: 375px;
+  margin: auto;
+  font-size: 15px;
+}
+
+header {
+  width: 93%;
+  max-width: 1340px;
+  margin: auto;
+}
+
+main {
+  width: 93%;
+  max-width: 1340px;
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  max-width: 1440px;
+  min-width: 375px;
+  margin: auto;
+}
+
+.blocpage_hebergements_marseille,
+.blocpage_populaires,
+footer {
+  background-color: #f2f2f2;
+}
+
+.fas {
+  color: #0065fc;
+  font-size: 0.7em;
+}
+
+a,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}

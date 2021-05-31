@@ -549,4 +549,17 @@
   .card_activites_duo h3 {
     margin-top: 25px;
   }
+
+  /*=========================================*/
+  /*==============ZONE FOOTER================*/
+  /*=========================================*/
+
+  footer {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 475px;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+  }
 }

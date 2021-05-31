@@ -90,3 +90,38 @@ nav ul {
   justify-content: space-between;
   padding: 0;
 }
+
+/*****************Zone liens*****************/
+
+.heberg,
+.sinscrire {
+  color: #0065fc;
+
+  padding-right: 25px;
+  padding-left: 25px;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.heberg {
+  padding-top: 50px;
+}
+
+.activ {
+  text-decoration: none;
+  color: black;
+  padding-top: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin: 0;
+}
+
+.sinscrire {
+  font-weight: bold;
+}
+
+.activ:hover,
+.heberg:hover {
+  color: #0065fc;
+  border-top: 3px #0065fc solid;
+}

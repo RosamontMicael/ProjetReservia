@@ -327,3 +327,104 @@ nav ul {
   width: 89%;
   min-width: 310px; /*blocage saut ligne*/
 }
+
+/*==========================================*/
+/*====SECTION HEBERGEMENT ET POPULAIRES=====*/
+/*==========================================*/
+
+#section_hebergements {
+  width: 100%; /*1340px; soit*/
+  display: flex;
+  justify-content: space-between;
+}
+
+/********Zone Hebergement Marseille**********/
+
+.blocpage_hebergements_marseille {
+  width: 66%; /*880px; flex:2; soit  height: 625px; ok*/
+  border-radius: 20px;
+}
+
+.blocpage_hebergements_marseille h2 {
+  margin-left: 30px; /*soit 3% ok */
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.zone_resultats_hebergements {
+  width: 100%; /*880px;  soitok*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*justify-content: space-around;*/
+  height: 460px; /*430px;*/
+}
+
+.card_vignette {
+  margin: 14px;
+  border-radius: 15px;
+  background-color: white;
+  width: 245px; /*soit 28% ok */
+  height: 200px;
+  box-shadow: 6px 6px 10px rgb(214, 214, 214);
+}
+
+.vignette_hebergement {
+  border-radius: 15px 15px 0 0;
+  width: 235px; /*soit 96%;ok */
+  height: 115px;
+  padding: 5px;
+  object-fit: cover;
+}
+
+.card_vignette:hover {
+  box-shadow: 15px 15px 10px rgb(214, 214, 214);
+}
+
+.card_vignette * {
+  margin: 0px;
+}
+
+.card_vignette h3 {
+  /* margin-top: 10px; annulation car passage de h5 a h3*/
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.card_vignette p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-size: 0.9em;
+}
+
+.card_vignette .fa-star {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.notation_cannebiere,
+.notation_port,
+.notation_mouettes,
+.notation_mer,
+.notation_panier,
+.notation_amina {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.notation_cannebiere .fas:nth-child(5),
+.notation_mouettes .fas:nth-child(5),
+.notation_mer .fas:nth-child(4),
+.notation_mer .fas:nth-child(5),
+.notation_panier .fas:nth-child(5) {
+  color: #dfdddd;
+}
+
+.plus {
+  margin-left: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}

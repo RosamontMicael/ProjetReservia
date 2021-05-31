@@ -213,4 +213,33 @@
   .filtres li {
     margin: 5px;
   }
+
+  /*===========================================*/
+  /*======SECTION HEBERGEMENTS MARSEILLE=======*/
+  /*===========================================*/
+
+  /*******************************/
+  .blocpage_hebergements_marseille {
+    height: auto;
+
+    border-radius: 0 0 30px 30px;
+  }
+
+  /*******************************/
+
+  .zone_resultats_hebergements {
+    height: auto;
+  }
+
+  /********************************/
+  .card_vignette {
+    width: 45%;
+
+    margin: 15px; /***pour que ca ne se rapproche pas*/
+    margin-bottom: 30px;
+  }
+
+  .card_vignette h3 {
+    margin-bottom: 1%;
+  }
 }

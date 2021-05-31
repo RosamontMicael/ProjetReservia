@@ -188,4 +188,29 @@
   footer {
     width: 100%;
   }
+
+  /*===========================================*/
+  /*======SECTION PARAMETRES ET CHOIX=========*/
+  /*===========================================*/
+
+  /****************Zone Filtres****************/
+
+  .zone_filtres {
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+  }
+
+  .designation {
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+
+  .filtres {
+    height: 200px;
+  }
+  .filtres li {
+    margin: 5px;
+  }
 }

@@ -258,3 +258,124 @@
     margin: 0;
   }
 }
+
+/*======================================*/
+/*******VERSION MOBILE*******/
+/*======================================*/
+
+@media screen and (max-width: 770px) {
+  /*======================================*/
+  /*=============SECTION HEADER===========*/
+  /*======================================*/
+
+  header {
+    height: auto;
+    width: 100%;
+  }
+
+  /********Zone Logo et Navigation********/
+  .logo_nav {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    height: auto;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .logo img {
+    width: 20%;
+    margin-left: 20px;
+  }
+
+  nav,
+  nav .sinscrire {
+    margin-right: 40px;
+    padding-right: 0;
+  }
+
+  nav {
+    width: 100%; /* ok*/
+    margin: 0;
+    margin: 0;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: 0px;
+  }
+
+  nav ul {
+    /* quel interet ;;;*/
+    justify-content: flex-start;
+    height: 50px;
+  }
+
+  /*************Zone Liens***************/
+  .activ,
+  .heberg {
+    color: #0065fc;
+    border-bottom: 3px #f2f2f2 solid;
+    width: 101%;
+    border-top: none;
+  }
+
+  .heberg {
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    height: 100%;
+  }
+
+  .activ {
+    padding: 0;
+    margin: 0;
+
+    margin: auto;
+  }
+
+  .activ:hover,
+  .heberg:hover {
+    /*border-top: none;*/
+    border-bottom: 3px #0065fc solid;
+    /* padding-top: 0px;*/
+    border-top: none;
+  }
+
+  .sinscrire {
+    /*display: block;
+    position: relative;
+    bottom: 90%;
+    left: 100px;*/ /*160px*/
+    margin: 0 0;
+    padding: 0 0;
+    height: 100%;
+    width: 0px;
+    font-weight: bold;
+    transform: translate(-70px, -45px);
+  }
+
+  nav li:nth-child(1) {
+    width: 50%;
+    padding-bottom: 0px;
+
+    height: 100%;
+  }
+
+  nav a {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    justify-content: center;
+  }
+
+  nav li:nth-child(2) {
+    width: 50%;
+  }
+
+  nav li:nth-child(3) {
+    width: 0px;
+  }
+}

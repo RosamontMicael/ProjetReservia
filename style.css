@@ -146,3 +146,80 @@ nav ul {
   margin: 10px 0 15px 0;
   font-size: 1rem;
 }
+
+/***********Zone de Recherche**************/
+
+.cadre_zone_recherche {
+  padding: 0;
+  display: flex;
+  width: 420px; /*420px; soit 31%;*/
+  height: 50px;
+
+  border-radius: 15px 15px 15px 15px;
+  border: #f2f2f2 1px solid;
+}
+
+.cadre_zone_recherche div {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadre_icone_localisation {
+  height: 50px;
+  padding: 0;
+  background-color: #f2f2f2;
+  border-radius: 15px 0 0 15px;
+
+  flex: 1; /*  ou width: 50px; ou 11.9%;*/
+}
+
+.cadre_icone_ville {
+  height: 50px;
+  padding: 0;
+
+  flex: 4.7; /* ou width: 235px; 55.95%;*/
+}
+
+.cadre_icone_bouton {
+  height: 50px;
+  padding: 0;
+  border-radius: 0px 15px 15px 0;
+  background-color: #0065fc;
+
+  flex: 2.7; /*  ou width: 135px;32.14%;*/
+}
+
+.fa-map-marker-alt {
+  font-size: 1.1rem;
+  border: none;
+  color: black;
+}
+
+.bouton_ville {
+  border: none;
+  height: 96%;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  /*border: #f2f2f2 1px solid;*/
+}
+
+.bouton_ville::placeholder {
+  color: black; /* ne fonctionne pa sur firefox*/
+  font-weight: bold;
+}
+
+.bouton_rechercher {
+  background-color: #0065fc;
+  color: white;
+  border: none;
+  border-radius: 0px 15px 15px 0;
+  font-size: 1.1rem;
+}
+
+.fa-search {
+  display: none;
+}

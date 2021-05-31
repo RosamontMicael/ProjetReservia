@@ -378,4 +378,93 @@
   nav li:nth-child(3) {
     width: 0px;
   }
+
+  /*===========================================*/
+  /*=======SECTION PARAMETRES ET CHOIX=========/
+  /*=========================================*/
+
+  /********Zone titre et description*********/
+
+  .zone_Titre_description h1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    font-size: 1.4em;
+    text-align: justify;
+  }
+
+  .zone_Titre_description p {
+    font-size: 0.95em;
+    text-align: justify;
+
+    width: 85%;
+  }
+
+  /**************Zone Recherche***************/
+
+  .cadre_zone_recherche {
+    max-width: 335px;
+  }
+
+  .fa-search {
+    display: block;
+    color: white;
+    font-size: 1em;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+
+  .cadre_icone_bouton {
+    flex: 1;
+  }
+
+  .bouton_rechercher {
+    display: none;
+  }
+
+  .cadre_icone_bouton {
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  /**************Zone Filtres***************/
+
+  .options:nth-child(2) {
+    order: 2;
+    transform: translate(-45px, 0px);
+  }
+  .options:nth-child(2):hover {
+    transform: translate(-45px, 0px);
+  }
+
+  .options:nth-child(1) {
+    margin-right: auto;
+  }
+
+  .filtres {
+    align-items: flex-start;
+  }
+
+  /*---les filtres a regler plus tard----*/
+
+  .options {
+    margin: 0 0;
+    padding: 0 0;
+    font-weight: bold;
+  }
+
+  .filtres {
+    flex-direction: column; /* modif test*/
+    height: 200px;
+  }
+
+  .zone_filtres {
+    height: 220px;
+  }
+
+  /****************Zone infos*******************/
+
+  .zone_info {
+    margin: auto;
+  }
 }

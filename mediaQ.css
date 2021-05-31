@@ -158,3 +158,34 @@
     font-size: 0.9em;
   }
 }
+/*==============================================*/
+/***********VERSION TABLETTE************/
+/*==============================================*/
+
+@media screen and (max-width: 991px) {
+  /*======PARAMETRES GENERAUX A REVERIFIER ======*/
+  #blocpage {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .logo img {
+    width: 20%;
+    margin-left: 20px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  #section_parametre_choix {
+    margin: 0 20px;
+  }
+
+  footer {
+    width: 100%;
+  }
+}

@@ -75,4 +75,29 @@
     margin: 20px;
     width: 45%;
   }
+
+  /*=========================================*/
+  /*======SECTION HEBERGEMENT MARSEILLE ======*/
+  /*=========================================*/
+
+  /*******Zone Hebergement Marseille*********/
+
+  .blocpage_hebergements_marseille {
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+  }
+
+  .zone_resultats_hebergements {
+    height: 700px;
+  }
+
+  .card_vignette {
+    width: 30%;
+    height: 300px;
+  }
+
+  .vignette_hebergement {
+    width: 96%;
+    height: 60%;
+  }
 }

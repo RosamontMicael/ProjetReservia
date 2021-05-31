@@ -296,3 +296,34 @@ nav ul {
 .zone_filtres .fas {
   font-size: 1em;
 }
+
+/*************Zone Infos***************/
+
+.zone_info {
+  display: flex;
+  align-items: baseline;
+  width: 100%; /* soit 445px */
+  height: auto;
+  margin-bottom: 10px;
+  /*font-size: 0.8em; a gerer*/
+}
+
+.zone_info .fa-info {
+  color: #0065fc;
+  border: 1px #f2f2f2 solid;
+  font-size: 1em;
+  width: 26px;
+  height: 21px;
+  padding-top: 5px;
+  margin-left: 0px;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 0.8em;
+}
+
+.zone_info p {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  width: 89%;
+  min-width: 310px; /*blocage saut ligne*/
+}

@@ -56,6 +56,33 @@
             </h1>
             <p>En plein centre ville ou en pleine nature</p>
           </div>
+
+          <!----------------Barre de recherche (penser id="heberg)")-->
+
+          <div class="zone_recherche">
+            <form method="post" action="rechercheville.php">
+              <div class="cadre_zone_recherche">
+                <div class="cadre_icone_localisation">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="cadre_icone_ville">
+                  <input
+                    class="bouton_ville"
+                    type="text"
+                    name="ville"
+                    placeholder="Marseille, France"
+                  />
+                </div>
+                <div class="cadre_icone_bouton">
+                  <input
+                    class="bouton_rechercher"
+                    type="submit"
+                    value="Rechercher"
+                  /><i class="fas fa-search"></i>
+                </div>
+              </div>
+            </form>
+          </div>
         </section>
       </main>
     </div>

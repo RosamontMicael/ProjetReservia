@@ -503,4 +503,50 @@
     height: 140px;
     padding: 1%;
   }
+
+  /*=========================================*/
+  /*===========SECTION ACTIVITES============*/
+  /*=======================================*/
+
+  .zone_resultats_activites {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .vignette_act {
+    height: 130px;
+  }
+
+  .vignette_act_duo {
+    height: 130px;
+  }
+
+  .card_activites {
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 0;
+    width: 90%;
+    height: 190px;
+  }
+
+  .card_activites_duo {
+    margin-bottom: 25px;
+    height: 190px;
+  }
+
+  .duo_activites {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card_activites h3 {
+    margin-top: 25px;
+  }
+
+  .card_activites_duo h3 {
+    margin-top: 25px;
+  }
 }

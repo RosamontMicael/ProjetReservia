@@ -125,3 +125,24 @@ nav ul {
   color: #0065fc;
   border-top: 3px #0065fc solid;
 }
+
+/*==========================================*/
+/*======SECTION PARAMETRES ET CHOIX=========*/
+/*==========================================*/
+
+/*********Titre et description**************/
+
+.zone_Titre_description {
+  margin-top: 30px;
+}
+.zone_Titre_description h1 {
+  margin-left: 0;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.zone_Titre_description p {
+  font-weight: normal;
+  margin: 10px 0 15px 0;
+  font-size: 1rem;
+}

@@ -28,4 +28,51 @@
     margin-bottom: 60px;
     width: 100%;
   }
+
+  /*==========================================*/
+  /*============SECTION ACTIVITES=============*/
+  /*==========================================*/
+
+  #activites {
+    padding-left: 30px;
+  }
+
+  .zone_resultats_activites {
+    width: 98%;
+    height: 1050px;
+
+    margin: auto;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .vignette_act {
+    height: 200px;
+  }
+
+  .vignette_act_duo {
+    height: 200px;
+  }
+
+  .card_activites {
+    margin: 20px;
+
+    height: 300px;
+    width: 45%;
+  }
+
+  .card_activites_duo {
+    margin-bottom: 30px;
+
+    width: 100%;
+    height: 300px;
+  }
+
+  .duo_activites {
+    margin: 20px;
+    width: 45%;
+  }
 }

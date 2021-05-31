@@ -590,3 +590,31 @@ nav ul {
 .card_activites_duo:hover {
   box-shadow: 15px 15px 10px rgb(214, 214, 214);
 }
+
+/*==========================================*/
+/*=============SECTION FOOTER==============*/
+/*========================================*/
+
+footer {
+  display: flex;
+}
+
+footer ul {
+  /* list-style-type: none;*/
+  padding-left: 0;
+  margin: 0;
+}
+
+.infos_sup {
+  margin: 15px 220px 0px 20px;
+}
+
+.infos_sup h3 {
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+footer li {
+  margin-left: 30px; /* revoir les marges pour version mobile*/
+  margin-bottom: 10px;
+}

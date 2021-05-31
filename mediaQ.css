@@ -467,4 +467,40 @@
   .zone_info {
     margin: auto;
   }
+  /*============================================*/
+  /*===========SECTION POPULAIRES==============*/
+  /*============================================*/
+
+  .blocpage_populaires {
+    border-radius: 0px;
+  }
+
+  .card_populaires1,
+  .card_populaires2,
+  .card_populaires3 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  /**************Zone HEBERGEMENTS*************/
+
+  .zone_resultats_hebergements {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card_vignette {
+    width: 90%;
+    height: 250px;
+    margin: 15px; /***pour que ca ne se rapproche pas*/
+    margin-bottom: 30px;
+  }
+
+  .vignette_hebergement {
+    width: 98%;
+    height: 140px;
+    padding: 1%;
+  }
 }

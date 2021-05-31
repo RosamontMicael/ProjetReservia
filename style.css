@@ -428,3 +428,91 @@ nav ul {
   font-size: 1.1rem;
   font-weight: bold;
 }
+
+/**************Zone Populaires**************/
+
+.blocpage_populaires {
+  width: 32%; /*420px;  soit ok*/
+  border-radius: 20px;
+  /* flex:1;*/
+}
+
+.blocpage_populaires h2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 45px 25px 30px; /*verifier les marges*/
+
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.blocpage_populaires .fa-chart-line {
+  font-weight: bold;
+  color: black;
+  font-size: 1.05em;
+}
+
+.zone_resultats_populaires {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.card_populaires1,
+.card_populaires2,
+.card_populaires3 {
+  width: 340px; /* soit ok 81% ;*/
+  height: 140px;
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 40px;
+  box-shadow: 6px 6px 10px rgb(214, 214, 214);
+}
+
+.vignette_populaires {
+  width: 134px; /* soit 39%*/
+  height: 130px;
+  padding: 5px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.lien_populaires {
+  display: flex;
+}
+
+.card_populaires1:hover,
+.card_populaires2:hover,
+.card_populaires3:hover {
+  box-shadow: 15px 15px 10px rgb(214, 214, 214);
+}
+
+.prix {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.prix h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.prix p {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+
+.notationpop_matin,
+.notationpop_hotes,
+.notationpop_blanc {
+  margin-left: 10px;
+}
+
+.notationpop_hotes .fas:nth-child(5),
+.notationpop_blanc .fas:nth-child(5) {
+  color: #dfdddd;
+}

@@ -347,7 +347,7 @@ nav ul {
 
 .blocpage_hebergements_marseille h2 {
   margin-left: 5%; /*soit 3% ok */
-  width:90%;
+  width: 90%;
   margin-top: 40px;
   margin-bottom: 25px;
   font-weight: bold;
@@ -524,7 +524,7 @@ nav ul {
 
 .blocpage_activites {
   height: auto; /*1200px;*/
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: 60px;
   width: 100%;
 }
@@ -535,7 +535,7 @@ nav ul {
 }
 
 .zone_resultats_activites {
-  margin-top: 30px;
+  margin-top: 25px;
   width: 100%;
   display: flex;
   justify-content: space-between;

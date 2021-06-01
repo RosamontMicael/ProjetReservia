@@ -510,8 +510,7 @@
   .card_vignette {
     width: 90%;
     height: 250px;
-    margin: 15px; /***pour que ca ne se rapproche pas*/
-    margin-bottom: 30px;
+    margin: 10px 15px; /***pour que ca ne se rapproche pas*/
   }
 
   .vignette_hebergement {

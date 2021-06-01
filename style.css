@@ -562,7 +562,7 @@ nav ul {
   border-radius: 15px 15px 15px 15px;
   width: 300px; /*22.3%    c*/
   box-shadow: 6px 6px 10px rgb(214, 214, 214);
-  margin: 5px;
+  /*margin: 5px;*/
 }
 
 .card_activites_duo {

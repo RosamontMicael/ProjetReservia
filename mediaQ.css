@@ -485,6 +485,11 @@
 
   /**************Zone HEBERGEMENTS*************/
 
+  .blocpage_hebergements_marseille {
+    background-color: white;
+    border-radius: 0;
+  }
+
   .zone_resultats_hebergements {
     height: auto;
     flex-direction: column;

@@ -99,6 +99,7 @@
   .vignette_hebergement {
     width: 96%;
     height: 60%;
+    padding: 2%;
   }
 
   /*===========================================*/
@@ -601,5 +602,15 @@
 
     /*font-size: 1.4em;
       text-align: justify;*/
+  }
+
+  /*===========================================*/
+  /*======SECTION HEBERGEMENTS MARSEILLE=======*/
+  /*===========================================*/
+
+  .vignette_hebergement {
+    width: 96%;
+    height: 60%;
+    padding: 2%;
   }
 }

@@ -150,11 +150,10 @@
   }
 
   .notationpop {
-    /* info sans effet voir avec mentor*/
     font-size: 0.8em;
-
     margin-left: 10px;
   }
+
   .fa-star {
     font-size: 0.9em;
   }
@@ -164,7 +163,7 @@
 /*==============================================*/
 
 @media screen and (max-width: 991px) {
-  /*======PARAMETRES GENERAUX A REVERIFIER ======*/
+  /*============PARAMETRES GENERAUX============*/
   #blocpage {
     width: 100%;
   }
@@ -236,7 +235,7 @@
   .card_vignette {
     width: 45%;
 
-    margin: 15px; /***pour que ca ne se rapproche pas*/
+    margin: 15px;
     margin-bottom: 30px;
   }
 
@@ -297,7 +296,7 @@
   }
 
   nav {
-    width: 100%; /* ok*/
+    width: 100%;
     margin: 0;
     margin: 0;
   }
@@ -308,7 +307,6 @@
   }
 
   nav ul {
-    /* quel interet ;;;*/
     justify-content: flex-start;
     height: 50px;
   }
@@ -338,17 +336,12 @@
 
   .activ:hover,
   .heberg:hover {
-    /*border-top: none;*/
     border-bottom: 3px #0065fc solid;
-    /* padding-top: 0px;*/
+
     border-top: none;
   }
 
   .sinscrire {
-    /*display: block;
-    position: relative;
-    bottom: 90%;
-    left: 100px;*/ /*160px*/
     margin: 0 0;
     padding: 0 0;
     height: 100%;
@@ -387,10 +380,6 @@
   /********Zone titre et description*********/
 
   .zone_Titre_description h1 {
-    /*display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;*/
-
     font-size: 1.4em;
     text-align: justify;
   }
@@ -446,8 +435,6 @@
     align-items: flex-start;
   }
 
-  /*---les filtres a regler plus tard----*/
-
   .options {
     margin: 0 0;
     padding: 0 0;
@@ -455,7 +442,7 @@
   }
 
   .filtres {
-    flex-direction: column; /* modif test*/
+    flex-direction: column;
     height: 200px;
   }
 
@@ -511,7 +498,7 @@
   .card_vignette {
     width: 90%;
     height: 250px;
-    margin: 10px 15px; /***pour que ca ne se rapproche pas*/
+    margin: 10px 15px;
   }
 
   .vignette_hebergement {
@@ -599,9 +586,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-
-    /*font-size: 1.4em;
-      text-align: justify;*/
   }
 
   /*===========================================*/

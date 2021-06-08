@@ -62,7 +62,7 @@ ul {
   color: black;
 }
 
-strong{
+strong {
   font-weight: bold;
 }
 
@@ -475,7 +475,7 @@ nav ul {
   width: 134px; /* soit 39%*/
   height: 130px;
   padding: 5px;
-  border-radius: 15px;
+  border-radius: 15px 0 0 15px;
   object-fit: cover;
 }
 

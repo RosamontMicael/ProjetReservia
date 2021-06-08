@@ -599,6 +599,7 @@ nav ul {
 
 footer {
   display: flex;
+  min-height: 220px;
 }
 
 footer ul {

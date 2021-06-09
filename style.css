@@ -600,6 +600,8 @@ nav ul {
 footer {
   display: flex;
   min-height: 220px;
+  padding-top: 32px;
+  font-size: 0.95rem;
 }
 
 footer ul {
@@ -608,15 +610,18 @@ footer ul {
 }
 
 .infos_sup {
-  margin: 15px 220px 0px 20px;
+  width: 30%;
+  padding-left: 4%;
+}
+
+.infos_sup:nth-child(2) {
+  width: 25%;
 }
 
 .infos_sup h3 {
   font-weight: bold;
-  margin-left: 30px;
 }
 
 footer li {
-  margin-left: 30px;
   margin-bottom: 10px;
 }

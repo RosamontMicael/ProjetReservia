@@ -248,14 +248,7 @@
   /*============================================*/
 
   footer {
-    flex-wrap: wrap;
-    justify-content: space-around;
-
     height: auto;
-  }
-
-  .infos_sup {
-    margin: 0;
   }
 }
 
@@ -566,11 +559,23 @@
 
   footer {
     flex-direction: column;
-    justify-content: space-around;
     height: 475px;
     margin: 0;
     margin-top: 20px;
-    padding: 0;
+  }
+
+  .infos_sup {
+    width: auto;
+    padding-left: 6%;
+  }
+
+  .infos_sup:nth-child(2) {
+    padding-top: 18px;
+    width: auto;
+  }
+
+  .infos_sup:nth-child(3) {
+    padding-top: 28px;
   }
 }
 

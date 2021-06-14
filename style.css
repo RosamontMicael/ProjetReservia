@@ -152,6 +152,9 @@ nav ul {
 }
 
 /***********Zone de Recherche**************/
+.zone_recherche input[type=button] {
+cursor: pointer;
+}
 
 .cadre_zone_recherche {
   padding: 0;
